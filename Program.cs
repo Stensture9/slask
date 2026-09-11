@@ -1,16 +1,15 @@
-﻿Console.WriteLine("gissa vad jag tänker på");
-string? strong = Console.ReadLine();
-switch(strong)
-{
-    case "Fiske":
-        {
-            Console.WriteLine("Rätt");
-        }
-    break;
-    default:
-        {
-            Console.WriteLine("Fel");
-        }
-    break;
+﻿namespace simpleGit;
 
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Hello, Git!");
+        Console.WriteLine(DoSomething("Guapo"));
+    }
+
+    static string DoSomething(string name)
+    {
+        return $"Hello {name}";
+    }
 }

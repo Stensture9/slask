@@ -1,16 +1,16 @@
-﻿namespace simpleGit;
-
-class Program
+﻿Console.WriteLine("gissa vad jag tänker på");
+string? strong = Console.ReadLine();
+switch(strong)
 {
-    static void Main()
-    {
-        Console.WriteLine("Hello, Git!");
-        Console.WriteLine($"DoSomething");
-        
-    }
+    case "Fiske":
+        {
+            Console.WriteLine("Rätt");
+        }
+    break;
+    default:
+        {
+            Console.WriteLine("Fel");
+        }
+    break;
 
-    static string DoSomething(string name)
-    {
-        return $"Hello {name}";
-    }
 }

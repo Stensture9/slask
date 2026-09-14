@@ -5,7 +5,8 @@ class Program
     static void Main()
     {
         Console.WriteLine("Hello, Git!");
-        Console.WriteLine(DoSomething(Console.ReadLine()));
+        Console.WriteLine($"DoSomething");
+        
     }
 
     static string DoSomething(string name)
